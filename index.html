@@ -401,6 +401,17 @@
                     
                 </ul>
                 </div>
+                
+                <div class="subscribe">
+                    <b class="sub-name">Подпишитесь на рассылку</b>
+                    <form> 
+                        <label for="email" class="lable-email">E-mail</label>
+                        <input type="text" name="name" id="email" class="email-subscribe">
+                        <button type="submit" class="subscribe-btn">Подписаться</button>
+                    </form>
+
+
+                </div>
                 </div>
             </footer>
     </main>
@@ -411,6 +422,28 @@
                     <use href="./img/styles.svg#icon-close"></use>
                 </svg>
             </button>
+            <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form action="">
+            <div class="feedback-modal">
+            <label for="name" class="feedback-title">Имя</label> 
+            <input type="text" name="name" id="name" class="feedback-input">
+            </div>
+            <div class="feedback-modal">
+            <label for="phone" class="feedback-title">Телефон</label>
+            <input type="text" name="telephone" id="phone" class="feedback-input">
+            </div>
+            <div class="feedback-modal">
+            <label for="mail" class="feedback-title">Почта</label>
+            <input type="text" name="mail" id="mail" class="feedback-input">
+            </div>
+            <div class="feedback-modal">
+                <label for="comment"class="feedback-title">Комментарий</label>
+                <input type="text" name="comment" id="comment" class="feedback-comment">
+            </div>
+            <div>Соглашаюсь с рассылкой и принимаю Условия договора</div>
+            <button type="submit">Отправить</button>
+            
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>

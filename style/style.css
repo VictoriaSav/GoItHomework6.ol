@@ -602,6 +602,31 @@ img {
 .card-soc-footer:focus {
   background-color: var(--accent-color);
 }
+/*--------------Subscribe--------------*/
+
+.subscribe {
+  margin-right: auto;
+}
+
+.sub-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.lable-email {
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer-color);
+}
 
 /*--------------Portfolio Button--------------*/
 .nav_portfolio {
@@ -789,6 +814,7 @@ img {
 
   min-width: 528px;
   min-height: 581px;
+  padding: 40px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -823,4 +849,83 @@ img {
   transition: fill 250ms var(--primary-cubic);
   justify-content: center;
   align-items: center;
+}
+
+.email-subscribe {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: var(--footer-bg-color);
+  transition: border-color 250ms var(--primary-cubic);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: var(--accent-color);
+}
+
+.subscribe-btn {
+  min-width: 200px;
+  min-height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  display: inline-flex;
+  justify-content: center;
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: border-color 250ms var(--primary-cubic);
+}
+
+/*--------------Modal Feedback --------------*/
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.feedback-title {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--title-text-color);
+}
+
+.feedback-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  transition: border-color 250ms var(--primary-cubic);
+}
+
+.feedback-comment {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: border-color 250ms var(--primary-cubic);
 }
