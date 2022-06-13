@@ -427,22 +427,50 @@
             <div class="feedback-modal">
             <label for="name" class="feedback-title">Имя</label> 
             <input type="text" name="name" id="name" class="feedback-input">
+            <svg width="18" height="18" class="feedback-icon">
+                <use href="./img/styles.svg#icon-person"></use>
+            </svg>
             </div>
             <div class="feedback-modal">
             <label for="phone" class="feedback-title">Телефон</label>
             <input type="text" name="telephone" id="phone" class="feedback-input">
+            <svg width="18" height="18" class="feedback-icon">
+                <use href="./img/styles.svg#icon-vector-phone"></use>
+            </svg>
             </div>
             <div class="feedback-modal">
             <label for="mail" class="feedback-title">Почта</label>
             <input type="text" name="mail" id="mail" class="feedback-input">
+            <svg width="18" height="18" class="feedback-icon">
+                <use href="./img/styles.svg#icon-mail-vector"></use>
+            </svg>
             </div>
             <div class="feedback-modal">
                 <label for="comment"class="feedback-title">Комментарий</label>
-                <input type="text" name="comment" id="comment" class="feedback-comment">
+                <textarea name="comment" id="comment" class="feedback-comment" 
+                placeholder="Введите текст"></textarea>    
             </div>
-            <div>Соглашаюсь с рассылкой и принимаю Условия договора</div>
-            <button type="submit">Отправить</button>
+            <div class="input-agreement"> 
+                <label for="agreement" class="agreement-title">
+                    <input type="checkbox" name="agreement" id="agreement" class="checkbox" />
+                    <span class="icon"></span>
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="" class="agreement-link">Условия договора</a></label>
+                </div>
+            <button type="submit" class="send-modal">Отправить</button>
             
+            
+            <!-- 
+          </div>
+          <div class="agreement">
+            <label for="agreement" class="agreement-title">
+              <input type="checkbox" name="agreement" id="agreement" class="checkbox" />
+              <span class="icon"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="agreement-link">Условия договора</a></label
+            >
+          </div>
+          <button type="submit" class="modal-submit-button">Отправить</button> -->
             </form>
         </div>
     </div>
